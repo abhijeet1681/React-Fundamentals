@@ -1,11 +1,11 @@
 import React from 'react'
-import ReactDOM from 'react-dom'
+import ReactDOM from 'react-dom/client'
 
 console.log("React",React);
 console.log("React",ReactDOM);
 
-const heading1 = React.createElement("h1",{className : "heading1"}, "INDIA");
-const heading2 = React.createElement("h3",{className : "heading3"}, "PAKISTAN");
+const heading1 = React.createElement("h1",{className : "heading1"}, "INDIA (IND)");
+const heading2 = React.createElement("h2",{className : "heading3"}, "PAKISTAN (PAK)");
 
 
 const container1 = React.createElement("div",{className : "container"}, [heading1, heading2]);

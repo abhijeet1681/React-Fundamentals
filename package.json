@@ -1,9 +1,9 @@
 {
-  "name": "react",
+  "name": "react-js",
   "version": "1.0.0",
   "description": "\"This is the basic react project\"",
-  "main": "App.js",
   "scripts": {
+    "start" : "npx parcel index.html",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Abhijeet Jadhav",
